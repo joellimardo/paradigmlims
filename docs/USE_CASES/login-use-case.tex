@@ -1,0 +1,86 @@
+\documentclass[11pt]{article}
+\usepackage{fancyhdr}
+
+\pdfpagewidth 8.5in
+\pdfpageheight 11in
+\pagestyle{fancy}
+\usepackage{color}
+
+
+\begin{document}
+
+\chead{\LARGE User Login Use Case}
+\rfoot{Doc Vers. $ $Revision: 1.2 $ $}
+\cfoot{LIMSExpert.com. Page \thepage}
+
+\section*{Actors}
+
+\begin{itemize}
+\item Laboratory user. (primary actor)
+\item UserLogin Class
+\item UserSecurity Class
+\item SystemPermissions Class
+\item GlobalConfiguration Class
+\item Workflow Class
+\end{itemize}
+\section*{Goal}
+
+A human user wants to log into the system and access the tools, utilities, and data that he/she needs to perform his or her work.
+
+\section*{Background}
+
+A laboratory operator or manager wants to access the system to either update or review data or to print reports or labels.
+
+\section*{Stakeholders and Interests}
+
+If users cannot access the system then they cannot perform their work.
+
+\section*{Preconditions}
+
+For a successful login the user must have  a username and a password to access the system given by someone designated as a system administrator. 
+
+\section*{Basic Flow}
+
+\begin{enumerate}
+\item User enters a username and a password
+\item A UserLogin object validates the user's name and password
+\item A UserSecurity object is instantiated and remains throughout the session to respond to user security inquiries
+\item A SystemPermissions object identifies the default workflow
+\item A GlobalConfiguration object gathers needed data and remains throughout the session
+\item A Workflow object describes the user interface options available to the user  
+\end{enumerate}
+
+\section*{Extensions/Variations}
+
+{\parindent = 0pt 
+1a. User enters the wrong username or password -- should result in an error message on screen
+
+1b. User enters a correct, but expired password. Should result in being led to a screen to create a new password immediately.
+}
+
+
+\section*{Post conditions}
+
+The user will either be logged in or will see an error message providing the user with an error message.
+
+\section*{Special Requirements}
+
+Large-scale users will expect that their accounts will be validated via LDAP or some other external mechanism. There will be no username or password entered in these instances, so the UserLogin class will have to know that it is in this type of environment  (by talking to the GlobalConfiguration and/or the UserSecurity object). The classes that formulate the GUI must check with the UserLogin class BEFORE presenting the user with the username/password challenge. 
+
+The laboratory operator may be using someone else's terminal or the laboratory may be using a shared-password type of scenario, so asking the user if he/she would like to log in as another user {\bf must} be an option.
+
+The project funding for this system has not been decided upon yet, so the GUI must have hooks that allow for some kind of marketing to be placed on logins with hyperlinks and logos from product vendors.
+
+Users do not just log in once and stay logged in forever. There must be a configurable timeout associated with a user session where the password challenge appears again or access to the system is denied.
+
+Manual user-based login is only one method for accessing the system.  A non-interactive login is needed for background/batch processing and results imported from a laboratory instrument may not require a login at all since their results can be sandboxed for manual inclusion later on (depending on the associated workflow).
+ 
+
+\section*{Open Issues/Risks}
+
+\begin{itemize}
+\item No access to a development-level LDAP server for testing. 
+\item Not sure what to do if users are logged in via LDAP and their session times out.
+\end{itemize}
+
+\end{document}

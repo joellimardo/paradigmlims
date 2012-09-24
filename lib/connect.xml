@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseconfig>
+<![CDATA[
+  
+
+$Id: connect.xml,v 1.3 2011/05/31 18:50:41 joellimardo Exp $
+
+  
+Copyright 2011 Joel Limardo
+
+This file is part of paradigmLIMS.
+
+paradigmLIMS is free software: you can redistribute it and/or modify it under the terms 
+of the GNU General Public License as published by the Free Software Foundation, 
+either version 3 of the License, or (at your option) any later version.
+
+paradigmLIMS is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with paradigmLIMS. 
+If not, see http://www.gnu.org/licenses/.
+]]>
+<!-- This file contains all informations to connect paradigmLIMS to the database-->
+    <!-- What database do you use? For example "MySQL", "Oracle" -->
+    <databasetype>POSTGRESQL</databasetype>
+    <!-- What is the URL for the database server? -->
+    <!--URL>jdbc:mysql://192.168.100.138:3306/freelims</URL-->
+    <URL>jdbc:postgresql://localhost:5432/paradigmlims</URL>
+    <!-- Forces the use of unicode character encoding. Can be true or false. -->
+    <force_unicode>false</force_unicode>
+    <!-- When forcing unicode is enabled, then this value sets the used character encoding -->
+    <character_encoding>UTF-8</character_encoding>
+    <!-- What is the username for the database? -->
+    <userid>limarje1</userid>
+    <!-- What is the password for this user? -->
+    <password></password>
+    <!-- What is the username of the report user? This is a readonly user! -->
+    <report_user>####</report_user>
+    <!-- What is the password for this user? -->
+    <report_user_password>####</report_user_password>
+    <!-- Do you want to see the startup screen? -->
+    <startup_screen>true</startup_screen>
+    <!-- set a number between 1 and 9 -->
+    <look_and_feel>3</look_and_feel>
+    <!-- Where should the keystore- and user-files be stored? -->
+    <userdirectory>./usr/lib</userdirectory>
+    <!-- What is the default-language for the Secure-Connect-Module? English, Francais or Deutsch -->
+    <default_language>EN</default_language>
+</databaseconfig>
+

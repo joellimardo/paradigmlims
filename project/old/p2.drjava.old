@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20140826-r5761">
+  <project autorefresh="false" build="classes/" main="" root="" work="">
+    <createjar file=""/>
+    <source/>
+    <included>
+      <file active="true" name="/media/sda2/working/paradigmlims/src/com/limsexpert/paradigmlims/config/paradigmConfig.java" package="com.limsexpert.paradigmlims.config" timestamp="08-Jul-2015 12:48:25">
+        <select from="839" to="839"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="/media/sda2/working/paradigmlims/src/com/limsexpert/paradigmlims/exception/BadInspector.java" package="com.limsexpert.paradigmlims.exception" timestamp="08-Jul-2015 12:48:25">
+        <select from="839" to="839"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="/media/sda2/working/paradigmlims/src/com/limsexpert/paradigmlims/exception/DBCannotConnect.java" package="com.limsexpert.paradigmlims.exception" timestamp="08-Jul-2015 12:48:25">
+        <select from="839" to="839"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="/media/sda2/working/paradigmlims/src/com/limsexpert/paradigmlims/exception/GeneralAuditFailure.java" package="com.limsexpert.paradigmlims.exception" timestamp="08-Jul-2015 12:48:25">
+        <select from="839" to="839"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="/media/sda2/working/paradigmlims/src/com/limsexpert/paradigmlims/exception/InsufficientPermissions.java" package="com.limsexpert.paradigmlims.exception" timestamp="08-Jul-2015 12:48:25">
+        <select from="839" to="839"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="/media/sda2/working/paradigmlims/src/com/limsexpert/paradigmlims/exception/LogfileFolderFullException.java" package="com.limsexpert.paradigmlims.exception" timestamp="08-Jul-2015 12:48:25">
+        <select from="839" to="839"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="/media/sda2/working/paradigmlims/src/com/limsexpert/paradigmlims/model/User.java" package="com.limsexpert.paradigmlims.model" timestamp="08-Jul-2015 12:48:25">
+        <select from="839" to="839"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="/media/sda2/working/paradigmlims/src/com/limsexpert/paradigmlims/test/basicConfigTests.java" package="com.limsexpert.paradigmlims.test" timestamp="08-Jul-2015 12:48:25">
+        <select from="839" to="839"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="/media/sda2/working/paradigmlims/src/com/limsexpert/paradigmlims/test/loggingTests.java" package="com.limsexpert.paradigmlims.test" timestamp="08-Jul-2015 12:48:25">
+        <select from="839" to="839"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="/media/sda2/working/paradigmlims/src/com/limsexpert/paradigmlims/util/SafeLog.java" package="com.limsexpert.paradigmlims.util" timestamp="08-Jul-2015 12:48:25">
+        <select from="839" to="839"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="/media/sda2/working/paradigmlims/src/com/limsexpert/paradigmlims/util/StringUtils.java" package="com.limsexpert.paradigmlims.util" timestamp="08-Jul-2015 12:48:25">
+        <select from="839" to="839"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="/media/sda2/working/paradigmlims/src/com/limsexpert/paradigmlims/view/generalConsole.java" package="com.limsexpert.paradigmlims.view" timestamp="08-Jul-2015 12:48:25">
+        <select from="839" to="839"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="/media/sda2/working/paradigmlims/src/com/limsexpert/paradigmlims/view/loginGUI.java" package="com.limsexpert.paradigmlims.view" timestamp="08-Jul-2015 12:48:25">
+        <select from="839" to="839"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="/media/sda2/working/paradigmlims/src/com/limsexpert/paradigmlims/paradigmLIMS.java" package="" timestamp="08-Jul-2015 12:48:25">
+        <select from="839" to="839"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </included>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="lib/jdom.jar"/>
+      <file absolute="false" name="../../../../../UNIONFS/lib/netty-4.0.15.Final/jar/all-in-one/netty-all-4.0.15.Final.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

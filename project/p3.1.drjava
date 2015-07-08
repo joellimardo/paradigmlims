@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20140826-r5761">
+  <project autorefresh="false" build="../bin/" main="" root="../" work="../">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="src/com/limsexpert/paradigmlims/test/basicConfigTests.java" package="com.limsexpert.paradigmlims.test" timestamp="08-Jul-2015 13:51:16">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+      <file name="src/com/limsexpert/paradigmlims/config/paradigmConfig.java" package="com.limsexpert.paradigmlims.config" timestamp="08-Jul-2015 13:51:29">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+      <file name="src/com/limsexpert/paradigmlims/exception/BadInspector.java" package="com.limsexpert.paradigmlims.exception" timestamp="08-Jul-2015 13:51:37">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+      <file name="src/com/limsexpert/paradigmlims/exception/DBCannotConnect.java" package="com.limsexpert.paradigmlims.exception" timestamp="08-Jul-2015 13:51:45">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+      <file name="src/com/limsexpert/paradigmlims/exception/GeneralAuditFailure.java" package="com.limsexpert.paradigmlims.exception" timestamp="08-Jul-2015 13:51:53">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+      <file name="src/com/limsexpert/paradigmlims/exception/InsufficientPermissions.java" package="com.limsexpert.paradigmlims.exception" timestamp="08-Jul-2015 13:51:58">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+      <file name="src/com/limsexpert/paradigmlims/exception/LogfileFolderFullException.java" package="com.limsexpert.paradigmlims.exception" timestamp="08-Jul-2015 13:52:06">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+      <file name="src/com/limsexpert/paradigmlims/model/User.java" package="com.limsexpert.paradigmlims.model" timestamp="08-Jul-2015 13:52:13">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+      <file name="src/com/limsexpert/paradigmlims/test/loggingTests.java" package="com.limsexpert.paradigmlims.test" timestamp="08-Jul-2015 13:52:23">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+      <file name="src/com/limsexpert/paradigmlims/util/SafeLog.java" package="com.limsexpert.paradigmlims.util" timestamp="08-Jul-2015 13:52:30">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+      <file name="src/com/limsexpert/paradigmlims/util/StringUtils.java" package="com.limsexpert.paradigmlims.util" timestamp="08-Jul-2015 13:52:38">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+      <file name="src/com/limsexpert/paradigmlims/view/generalConsole.java" package="com.limsexpert.paradigmlims.view" timestamp="08-Jul-2015 13:52:47">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+      <file name="src/com/limsexpert/paradigmlims/view/loginGUI.java" package="com.limsexpert.paradigmlims.view" timestamp="08-Jul-2015 13:52:54">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+      <file name="src/com/limsexpert/paradigmlims/paradigmLIMS.java" package="" timestamp="08-Jul-2015 13:53:05">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+      <file name="lib/connect.xml" package="" timestamp="08-Jul-2015 13:56:00">
+        <select from="2079" to="2079"/>
+        <scroll column="242" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath>
+      <file absolute="false" name="lib/jdom.jar"/>
+    </classpath>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
